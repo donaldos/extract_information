@@ -1,0 +1,73 @@
+{
+  "type": "object",
+  "properties": {
+    "소재지": {
+      "type": "string",
+      "description": "Address or location of the real estate (property address as written in the contract)"
+    },
+    "토지_지목": {
+      "type": "string",
+      "description": "Land category (e.g., 대, 전, 답, 임야)"
+    },
+    "토지_면적": {
+      "type": "string",
+      "description": "Land area as written in the contract, including unit (e.g., 84.5㎡)"
+    },
+    "토지_대지권": {
+      "type": "string",
+      "description": "Site use right (대지권) share or area as written in the contract"
+    },
+    "건물_구조용도": {
+      "type": "string",
+      "description": "Building structure and usage (e.g., 철근콘크리트구조 / 아파트)"
+    },
+    "건물_면적": {
+      "type": "string",
+      "description": "Building area as written in the contract, including unit (e.g., 59.96㎡)"
+    },
+    "매매대금": {
+      "type": "string",
+      "description": "Total sale price as written in the contract, including unit (e.g., 350,000,000원)"
+    },
+    "계약금": {
+      "type": "string",
+      "description": "Down payment (계약금) amount as written in the contract"
+    },
+    "융자금": {
+      "type": "string",
+      "description": "Loan amount (융자금) assumed or referenced in the contract"
+    },
+    "중도금": {
+      "type": "string",
+      "description": "Intermediate payment (중도금) amount as written in the contract"
+    },
+    "중도금_지급일": {
+      "type": "string",
+      "description": "Intermediate payment (중도금) due date as written in the contract (e.g., 2026년 7월 31일)"
+    },
+    "잔금": {
+      "type": "string",
+      "description": "Final balance payment (잔금) amount as written in the contract"
+    },
+    "잔금_지급일": {
+      "type": "string",
+      "description": "Final balance payment (잔금) due date as written in the contract (e.g., 2026년 9월 30일)"
+    }
+  },
+  "required": [
+    "소재지",
+    "토지_지목",
+    "토지_면적",
+    "토지_대지권",
+    "건물_구조용도",
+    "건물_면적",
+    "매매대금",
+    "계약금",
+    "융자금",
+    "중도금",
+    "중도금_지급일",
+    "잔금",
+    "잔금_지급일"
+  ],
+  "additionalProperties": false
+}
