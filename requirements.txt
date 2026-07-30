@@ -1,1 +1,2 @@
 # No external Python packages are required.
+# This file is intentionally left empty to indicate that the project does not have any external dependencies.
